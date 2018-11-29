@@ -3,14 +3,36 @@
 <head>
 	<title>Elige</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+	<div class="fondo"></div>
 	<div class="contenedor">
-		<div class="texto">(Redactar)hay una pelea y se dividen en dos botes, estos se hunden</div>
-		<a href="../contenido/pag5.html" target="iframe"><div id="barco1"></div></a>
-		<a href="../contenido/pag7.html" target="iframe"><div id="barco2"></div></a>
-		<div class="pregunta">(Redactar)salvar 150 o 50</div>
+		<div class="texto bitred2">Logras reparar lo más rápido que puedes el barco de 200. Las existencias empiezan a escasear. En una pelea se forman dos grupos y deciden ir en otro barco. Al poco tiempo, ambos se están hundiendo y tienes que volver a elegir. </div>
+
+		<div class="barcos">
+			<div id="barco1">
+				<div>
+					<a href="../contenido/pag5.html" target="iframe">
+						<span>150</span>
+					</a>
+					<div class="linea"></div>
+				</div>
+				<object type="image/svg+xml" data="../img/5.svg"></object>
+			</div>
+			<div id="barco2">
+				<object type="image/svg+xml" data="../img/7.svg"></object>
+				<div>
+					<a href="../contenido/pag7.html" target="iframe">
+						<span>50</span>
+					</a>
+					<div class="linea"></div>
+				</div>	
+			</div>
+		</div>
+
+		<div class="pregunta">¿Qué barco salvas?</div>
 	</div>
 </body>
 </html>

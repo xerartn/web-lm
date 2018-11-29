@@ -134,13 +134,13 @@ width: 23.9vw;
 
 #barco2 .linea
 {
-    border-bottom: .3vw solid #fff;
-    display: block;
-    left: -7.7vw;
-    position: absolute;
-    top: 6vw;
-    width: 17.9vw;
-    z-index: -1;
+	border-bottom: .3vw solid #fff;
+	display: block;
+	left: -7.7vw;
+	position: absolute;
+	top: 6vw;
+	width: 17.9vw;
+	z-index: -1;
 }
 
 #barco2 span
@@ -239,7 +239,7 @@ width: 23.9vw;
 {
   display:inline-block;
   position:relative;
-  top:5vw;
+  top:3vw;
   width:49vw;
 }
 
@@ -431,4 +431,22 @@ fieldset
 }
 .bitred6{
 	background-color:#ff00006e;
+}
+
+table{
+	top:0.2vw;
+	position: relative;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin:0 auto;
+	font-size: 0.7vw;
+}
+table td{
+	background-color: #00000036;
+	border: 0.2vw solid #173146;
+	padding: 0.3vw;
+}
+table th{
+	text-transform: uppercase;
+	font-size: 1vw;
 }
